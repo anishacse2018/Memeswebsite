@@ -1,0 +1,65 @@
+.text-on-image{
+    position: relative;
+    right:30%;
+    left:10%;
+    bottom:35%;
+}
+.head-text{
+    position: relative;
+}
+textarea {
+   
+    box-sizing: border-box;
+    border:white;
+    border-radius: 4px;
+    background-color:white;
+     resize: both;
+  }
+  .wordart {
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transform: scale(1, 1.5);
+    -webkit-transform: scale(1, 1.5);
+    -moz-transform: scale(1, 1.5);
+    -o-transform: scale(1, 1.5);
+    -ms-transform: scale(1, 1.5);
+    background: red; 
+  background: -webkit-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: -o-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: -moz-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: linear-gradient(to right, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .btn {
+    background-color: #af4ca2; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+ 
+  
+  
+  
